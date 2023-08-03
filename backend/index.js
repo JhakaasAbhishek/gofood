@@ -24,7 +24,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://gofood-fnd90rfdf-jhakaasabhishek.vercel.app"
+      "https://gofood-six.vercel.app"
     ],
     methods: ["GET", "POST", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
