@@ -14,6 +14,7 @@ import Login from './screens/Login';
 import Signup from './screens/Signup';
 import { CartProvider } from './components/ContextReducer';
 import MyOrder from './screens/MyOrder';
+export const backendUrl ='https://gofood-seven.vercel.app';
 
 
 function App() {
