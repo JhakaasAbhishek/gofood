@@ -11,7 +11,7 @@ const cors = require("cors");
 const app = express()
 const port = 5000
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://khanakhazana.vercel.app");
+  res.setHeader("Access-Control-Allow-Origin", "https://swadisth.vercel.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
@@ -24,7 +24,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://khanakhazana.vercel.app"
+      "https://swadisth.vercel.app"
     ],
     methods: ["GET", "POST", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
